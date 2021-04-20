@@ -17,6 +17,7 @@ const Routes = () => {
         <Route exact path="/problemC" component={ProblemsC} />
         <Route exact path="/problemD" component={ProblemsD} />
         <Route exact path="/" component={Home} />
+        <Route exact path="/myA2Oj-ladder" component={Home} />
         <Route exact path="/Home" component={Home} />
       </Switch>
     </>

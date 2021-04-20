@@ -58,7 +58,7 @@ const Header = () => {
         alt="p"
         width="50px%"
         height="50px%"
-        style={{marginLeft:"1000px", borderRadius:"20px"}}/>
+        style={{marginLeft:"auto", borderRadius:"20px"}}/>
         <a  href="https://www.linkedin.com/in/prakhar-tiwari-3bb245183/">
         <Typography style={{marginLeft:"15px", color:"white"}} > Created By Prakhar Tiwari</Typography></a>
         </>
