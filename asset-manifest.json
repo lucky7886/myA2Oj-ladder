@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/myA2Oj-ladder/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/myA2Oj-ladder/static/js/main.9e5020f9.chunk.js",
+    "main.js.map": "/myA2Oj-ladder/static/js/main.9e5020f9.chunk.js.map",
+    "runtime-main.js": "/myA2Oj-ladder/static/js/runtime-main.7ecac5bc.js",
+    "runtime-main.js.map": "/myA2Oj-ladder/static/js/runtime-main.7ecac5bc.js.map",
+    "static/js/2.ffb3acec.chunk.js": "/myA2Oj-ladder/static/js/2.ffb3acec.chunk.js",
+    "static/js/2.ffb3acec.chunk.js.map": "/myA2Oj-ladder/static/js/2.ffb3acec.chunk.js.map",
+    "static/js/3.151f0e17.chunk.js": "/myA2Oj-ladder/static/js/3.151f0e17.chunk.js",
+    "static/js/3.151f0e17.chunk.js.map": "/myA2Oj-ladder/static/js/3.151f0e17.chunk.js.map",
+    "index.html": "/myA2Oj-ladder/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/myA2Oj-ladder/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.ffb3acec.chunk.js.LICENSE.txt": "/myA2Oj-ladder/static/js/2.ffb3acec.chunk.js.LICENSE.txt",
+    "static/media/goku.f1bb2fa5.jpg": "/myA2Oj-ladder/static/media/goku.f1bb2fa5.jpg",
+    "static/media/logo.6ce24c58.svg": "/myA2Oj-ladder/static/media/logo.6ce24c58.svg",
+    "static/media/prakhar.69883096.jpg": "/myA2Oj-ladder/static/media/prakhar.69883096.jpg",
+    "static/media/probleA.727c7b74.png": "/myA2Oj-ladder/static/media/probleA.727c7b74.png",
+    "static/media/problem2.f06f22ea.png": "/myA2Oj-ladder/static/media/problem2.f06f22ea.png",
+    "static/media/problemB.87754c6a.jpg": "/myA2Oj-ladder/static/media/problemB.87754c6a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ecac5bc.js",
+    "static/js/2.ffb3acec.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.9e5020f9.chunk.js"
+  ]
+}
