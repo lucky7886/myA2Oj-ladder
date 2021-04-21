@@ -66,7 +66,8 @@ const ProblemD = () => {
     "https://codeforces.com/contest/1291/problem/D",
     "https://codeforces.com/contest/1295/problem/D",
     "https://codeforces.com/contest/1294/problem/D",
-    "https://codeforces.com/contest/1511/problem/D"
+    "https://codeforces.com/contest/1511/problem/D",
+    "https://codeforces.com/contest/1514/problem/D",
   ];
 
   let Type = "D Level";

@@ -26,7 +26,7 @@ const Cards = ({ title, subheader, image, type, link }) => {
 
         <CardContent>
           <Typography className={classes.Typo} variant="body2" color="textSecondary" component="p">
-            Contains Atmost  50-60 ques for Problem {type} of codeForces
+            Contains Atleast  50-60 ques for Problem {type} of codeForces..
       </Typography>
         </CardContent>
 
