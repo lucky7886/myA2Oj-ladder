@@ -66,7 +66,8 @@ const ProblemC = () => {
     "https://codeforces.com/contest/1296/problem/C",
     "https://codeforces.com/contest/1291/problem/C",
     "https://codeforces.com/contest/1295/problem/C",
-    "https://codeforces.com/contest/1294/problem/C"
+    "https://codeforces.com/contest/1294/problem/C",
+    "https://codeforces.com/contest/1511/problem/C",
   ];
 
   let Type = "C Level";

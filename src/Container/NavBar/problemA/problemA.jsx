@@ -62,7 +62,8 @@ const ProblemA = () => {
     "https://codeforces.com/contest/1333/problem/A",
     "https://codeforces.com/contest/1332/problem/A",
     "https://codeforces.com/contest/1328/problem/A",
-    "https://codeforces.com/contest/1327/problem/A"
+    "https://codeforces.com/contest/1327/problem/A",
+    "https://codeforces.com/contest/1511/problem/A"
   ];
 
   let Type = "A Level";
