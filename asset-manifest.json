@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myA2Oj-ladder/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/myA2Oj-ladder/static/js/main.cf19ed43.chunk.js",
-    "main.js.map": "/myA2Oj-ladder/static/js/main.cf19ed43.chunk.js.map",
+    "main.js": "/myA2Oj-ladder/static/js/main.a4a95e46.chunk.js",
+    "main.js.map": "/myA2Oj-ladder/static/js/main.a4a95e46.chunk.js.map",
     "runtime-main.js": "/myA2Oj-ladder/static/js/runtime-main.00acac8d.js",
     "runtime-main.js.map": "/myA2Oj-ladder/static/js/runtime-main.00acac8d.js.map",
     "static/js/2.ce6745ea.chunk.js": "/myA2Oj-ladder/static/js/2.ce6745ea.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.00acac8d.js",
     "static/js/2.ce6745ea.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.cf19ed43.chunk.js"
+    "static/js/main.a4a95e46.chunk.js"
   ]
 }
