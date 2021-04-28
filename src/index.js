@@ -5,12 +5,20 @@ import App from './App';
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import store from "./redux/store/store";
+// import ParticlesBg from 'particles-bg';
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
- <BrowserRouter>
+    <Provider store={store}>
+    <BrowserRouter>
      <App />
+
       </BrowserRouter>
+      </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -11,7 +11,8 @@ import ProblemsD from "../Container/NavBar/problemD/problemD";
 const Routes = () => {
   return (
     <>
-      <Switch>
+    <>
+    <Switch>
         <Route exact path="/problemA" component={ProblemsA} />
         <Route exact path="/problemB" component={ProblemsB} />
         <Route exact path="/problemC" component={ProblemsC} />
@@ -20,6 +21,8 @@ const Routes = () => {
         <Route exact path="/myA2Oj-ladder" component={Home} />
         <Route exact path="/Home" component={Home} />
       </Switch>
+      </>
+     
     </>
   );
 }

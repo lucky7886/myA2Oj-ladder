@@ -9,9 +9,6 @@ const useStyles = makeStyles((theme) => ({
     borderRadius:"20px",
     flexGrow: 1,
   },
-  bgColor: {
-    background: "linear-gradient(to right, #c31432, #240b36)",
-  },
   media: {
     height: "auto",
     paddingTop: '56.25%', // 16:9

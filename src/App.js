@@ -1,15 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from "./component/home/home";
-import Table from "./component/Table/table";
 import style from "./component/home/style";
 import Routes from "./Routing/route";
+import Demo from "../src/component/demo";
+import ParticleContainer from "../src/component/particleContainer/particleContainer";
+import ParticlesBg from 'particles-bg'
+
+
 
 function App() {
   const classes= style();
   return (
-    <div className={classes.bgColor} >
+    <div className={classes.bgColor}>
       <Routes />
+      <div style={{  backgroundColor:"black", top :"0", left:"0",  height: "100%", width:"100%", zIndex: -1, position:"fixed"}}>
+      <ParticlesBg type="circle" bg={true} />
+      <ParticleContainer />
+      </div>
     </div>
   );
 }

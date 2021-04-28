@@ -10,6 +10,8 @@ import Footer from "../footer/footer";
 import Tilt from 'react-tilt';
 import Header from "../Header/index";
 import { Typography } from '@material-ui/core';
+import Particles from 'react-particles-js';
+
 
 const Home = () => {
   const classes = cardStyle();
@@ -34,10 +36,14 @@ const Home = () => {
   setInterval(Time,1000); 
   console.log("");
   return (
+    <>
+   
+     
     <div className={classes.bgColor} >
       <Header />
       <br />
       <Grid container style={{ marginTop: "150px" }} spacing={0}>
+        
 
         <Grid item xs={3} sm={3} md={3}>
           <Tilt className="Tilt" options={{ max: 35 }}
@@ -86,7 +92,11 @@ const Home = () => {
         </div>
 
       </div>
+
+
     </div>
+
+    </>
   );
 }
 
