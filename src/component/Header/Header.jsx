@@ -30,9 +30,8 @@ const Header = () => {
         <img width="60px" height="50px"  className={classes.imgg} src={goku} alt="Prakhar" />
 
         <div className={classes.divMargin}>
-          <div><HomeIcon/></div>
-        
-          <NavLink
+          <div style={{display:"inline-block"}}><HomeIcon/></div>
+          <div style={{display:"inline-block"}}> <NavLink
             exact
             to="/Home"
               activeStyle={{
@@ -42,23 +41,30 @@ const Header = () => {
             className={classes.navlink}
           >
             Home
-          </NavLink>
+          </NavLink></div>
+        
+          
         </div>
-
-        <div style={{marginLeft:"67px"}}>
-
-          <img
+         <>
+         <div style={{display:"inline-block", marginLeft: "4vh"}}>
+         <img
           src={code}
             alt="c"
             width="22px"
             height="22px"
             style={{backgroundColor:"blue"}}
           />
-          <a href="https://codeforces.com/"><Typography style={{color:"white"}}>codeForces</Typography></a>
-        </div>
+         </div>
+         <div style={{display:"inline-block", marginLeft:"1vh"}}>
+         <a style={{textDecoration:"none"}}  href="https://codeforces.com/"><Typography style={{color:"white", textDecoration:"none"}}>codeForces</Typography></a>
+         </div>
+         </>
         <>
-        <div style={{marginLeft:"auto"}}>
-          Total Problems<Typography style={{fontFamily: "serif", fontSize:"20px", color:"Highlight", marginLeft: "40px"}}>{totCount}</Typography> 
+        <div style={{ display:"inline-block", marginLeft:"auto"}}>
+          <Typography style={{fontFamily: "serif", fontSize:"20px", color:"ThreeDHighlight"}}>Total problems-- </Typography>
+          </div>
+          <div style={{display:"inline-block"}}>
+          <Typography style={{fontFamily: "serif", fontSize:"20px", color:"Highlight", marginLeft: "1vh"}}>{totCount}</Typography>
           </div>
         <img 
         src={Prakhar}
@@ -66,7 +72,7 @@ const Header = () => {
         width="50px%"
         height="50px%"
         style={{marginLeft:"auto", borderRadius:"20px"}}/>
-        <a  href="https://www.linkedin.com/in/prakhar-tiwari-3bb245183/">
+        <a   style={{textDecoration:"none"}} href="https://www.linkedin.com/in/prakhar-tiwari-3bb245183/">
         <Typography style={{marginLeft:"15px", color:"white"}} > Created By Prakhar Tiwari</Typography></a>
         </>
       </Toolbar>
