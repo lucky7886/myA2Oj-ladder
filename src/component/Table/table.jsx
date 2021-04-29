@@ -29,7 +29,7 @@ const table = ({ problemList, Type }) => {
                         <a href={problems}> <Typography style={{ fontSize: "19px", color: "white" }}>Problem No {index} </Typography></a>
                       </StyledTableCell>
                       <StyledTableCell style={{marginRight:"auto"}}>
-                      <button  id={index} className={classes.buttons}>Done Sencierly ?</button>
+                      <button  id={index} className={classes.buttons}>Done Sincerely ?</button>
                       </StyledTableCell>
                     </StyledTableRow>
                   </>
