@@ -4,12 +4,13 @@ export const Theme = createSlice({
   name: "Theme",
 
   initialState: {
-    dark: false ,
+    count: 0 ,
+
   },
   reducers: {
     getTheme: ()=> {},
-    SetTheme: (state) => {
-     state.dark= !(state.dark);
+    SetTheme: (state, action) => {
+     state.count+= (action.payload);
     },
   },
 });

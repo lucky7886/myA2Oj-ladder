@@ -16,6 +16,16 @@ const CenterStyles = makeStyles(() => ({
     borderRadius: "20px",
     backgroundColor: "#141452",
   },
+  buttons: {
+    backgroundColor: "#4CAF50", /* Green */
+    color: "white",
+    padding: "15px 32px",
+    textAlign: "center",
+    
+    display: "inlineBlock",
+    fontSize: "16px",
+    borderRadius:"12px",
+  },
   overlay: {
     position: "absolute",
     top: "100px",

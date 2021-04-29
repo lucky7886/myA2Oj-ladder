@@ -76,6 +76,9 @@ const HeaderStyles = makeStyles((theme) => ({
     paddingLeft: "5px",
     fontFamily: "Sans-serif",
   },
+  imgg :{
+    borderRadius:"30px", marginTop:"5px", marginBottom: "5px",
+  },
   button: {
     color: "#1D9AF2",
     backgroundColor: "#292D3E",

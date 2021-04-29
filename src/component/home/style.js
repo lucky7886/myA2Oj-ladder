@@ -13,6 +13,9 @@ const useStyles = makeStyles((theme) => ({
     height: "auto",
     paddingTop: '56.25%', // 16:9
   },
+  MA:{
+    marginTop:"50px",
+  },
   Typo: {
     fontSize:"20px",
     color:"white",

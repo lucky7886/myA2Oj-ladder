@@ -12,13 +12,12 @@ import { Link } from "react-router-dom";
 const table = ({ problemList, Type }) => {
   const classes = CenterStyles();
   return (
-    <div>
-      <>
         <>
-          <Table style={{ width: "95%", marginLeft: "25px" }}>
+          <Table>
             <TableHead>
-              <TableRow style={{ width: "90%" }}>
-                <StyledTableCell style={{ color: "red", }}>Problems {Type}</StyledTableCell>
+              <TableRow >
+                <StyledTableCell style={{   align:"right", color: "red", }}>Problems of {Type}</StyledTableCell>
+                <StyledTableCell style={{   align:"right", color: "Red", }}>Status</StyledTableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -26,8 +25,11 @@ const table = ({ problemList, Type }) => {
                 return (
                   <>
                     <StyledTableRow>
-                      <StyledTableCell align="left" className={classes.tableStyle} component="th" scope="row">
+                      <StyledTableCell align="left">
                         <a href={problems}> <Typography style={{ fontSize: "19px", color: "white" }}>Problem No {index} </Typography></a>
+                      </StyledTableCell>
+                      <StyledTableCell style={{marginRight:"auto"}}>
+                      <button  id={index} className={classes.buttons}>Done Sencierly ?</button>
                       </StyledTableCell>
                     </StyledTableRow>
                   </>
@@ -40,9 +42,6 @@ const table = ({ problemList, Type }) => {
           <br />
         </>
           )
-      </>
-    </div>
-  );
 }
 
 export default table;

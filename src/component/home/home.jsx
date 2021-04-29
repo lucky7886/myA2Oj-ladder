@@ -6,6 +6,10 @@ import problemA from "../../assest/probleA.png";
 import problem2 from "../../assest/problem2.png";
 import problem3 from "../../assest/problemB.jpg";
 import problemD from "../../assest/problemD.png";
+import BFS from "../../assest/BFS.png";
+import DSU from "../../assest/DFS.png";
+import MST from "../../assest/MST.jpg";
+import DP from "../../assest/DP.png";
 import Footer from "../footer/footer";
 import Tilt from 'react-tilt';
 import Header from "../Header/index";
@@ -42,14 +46,14 @@ const Home = () => {
     <div className={classes.bgColor} >
       <Header />
       <br />
-      <Grid container style={{ marginTop: "150px" }} spacing={0}>
+      <Grid container style={{ marginTop: "100px" }} spacing={0}>
         
 
         <Grid item xs={3} sm={3} md={3}>
           <Tilt className="Tilt" options={{ max: 35 }}
           >
             <Cards title={"Problems A"} subheader={"Rated 700-1000"}
-              image={problemA} type={"A"} link={"/problemA"}
+              image={problemA} type={"A"} link={"/problemA"} contain={"codeforces"}
             />
           </Tilt>
         </Grid>
@@ -58,7 +62,7 @@ const Home = () => {
           <Tilt className="Tilt" options={{ max: 35 }}
           >
             <Cards title={"Problems B"} subheader={"Rated 900-1200"}
-              image={problem3} type={"B"} link={"/problemB"}
+              image={problem3} type={"B"} link={"/problemB"} contain={"codeforces"}
             />
           </Tilt>
         </Grid>
@@ -67,7 +71,7 @@ const Home = () => {
           <Tilt className="Tilt" options={{ max: 35 }}
           >
             <Cards title={"Problems C"} subheader={"Rated 1100-1400"}
-              image={problem2} type={"C"} link={"/problemC"}
+              image={problem2} type={"C"} link={"/problemC"} contain={"codeforces"}
             />
           </Tilt>
         </Grid>
@@ -76,10 +80,46 @@ const Home = () => {
           <Tilt className="Tilt" options={{ max: 35 }}
           >
             <Cards title={"Problems D"} subheader={"Rated 1400-1600"}
-              image={problemD} type={"D"} link={"/problemD"}
+              image={problemD} type={"D"} link={"/problemD"} contain={"codeforces"}
             />
           </Tilt>
         </Grid>
+        <Grid   className={classes.MA} item xs={3} sm={3} md={3}>
+          <Tilt className="Tilt" options={{ max: 35 }}
+          >
+            <Cards title={"BFS"} subheader={"Practice Set "}
+              image={BFS} type={"Graph"} link={"/BFS"} contain={"Leetcode/ codeForces/ Codechef/ other"}
+            />
+          </Tilt>
+        </Grid>
+
+        <Grid   className={classes.MA} item xs={3} sm={3} md={3}>
+          <Tilt className="Tilt" options={{ max: 35 }}
+          >
+            <Cards title={"DSU/DFS"} subheader={"Practice Set"}
+              image={DSU} type={"Graph"} link={"/DSU/DFS"} contain={"Leetcode/ codeForces/ Codechef/ other"}
+            />
+          </Tilt>
+        </Grid>
+
+        <Grid   className={classes.MA} item xs={3} sm={3} md={3}>
+          <Tilt className="Tilt" options={{ max: 35 }}
+          >
+            <Cards title={"MST"} subheader={"Practice Set"}
+              image={MST} type={"GRAPH"} link={"/MST"} contain={"Leetcode/ codeForces/ Codechef/ other"}
+            />
+          </Tilt>
+        </Grid>
+
+        <Grid   className={classes.MA} item xs={3} sm={3} md={3}>
+          <Tilt className="Tilt" options={{ max: 35 }}
+          >
+            <Cards title={"Dynamic Programming"} subheader={"Practice Set"}
+              image={DP} type={"DP"} link={"/DP"} contain={"Leetcode/ codeForces/ Codechef/ other"}
+            />
+          </Tilt>
+        </Grid>
+
 
       </Grid>
       <div style={{ marginTop: "75px", marginLeft: "490px" }} >

@@ -67,7 +67,7 @@ const ProblemB = () => {
     "https://codeforces.com/contest/1295/problem/B",
     "https://codeforces.com/contest/1294/problem/B",
     "https://codeforces.com/contest/1511/problem/B",
-    "https://codeforces.com/contest/1514/problem/B"
+    "https://codeforces.com/contest/1514/problem/B",
   ];
   let Type = "B Level";
   return (

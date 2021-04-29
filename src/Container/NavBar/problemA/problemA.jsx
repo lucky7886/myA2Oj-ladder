@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Table from "../../../component/Table/table";
 import Header from "../../../component/Header/index";
+import {useSelector, useDispatch} from 'react-redux'
+import {SetTheme} from "../../../redux/reducer/theme";
 
 const ProblemA = () => {
 
@@ -66,6 +68,10 @@ const ProblemA = () => {
     "https://codeforces.com/contest/1511/problem/A",
     "https://codeforces.com/contest/1514/problem/A"
   ];
+    const dispatch= useDispatch();
+    useEffect(()=>{
+      dispatch(SetTheme(problemList.length))
+    },[dispatch]);
 
   let Type = "A Level";
   return (

@@ -15,15 +15,19 @@ import goku from "../../assest/goku.jpg";
 import code from  "../../assest/codeforces.png"
 import HomeIcon from '@material-ui/icons/Home';
 import Prakhar from "../../assest/prakhar.jpg"
+import  TotProblem from "../totProblems/allProblems";
 
+ let  totCount=0 ;
 const Header = () => {
+ totCount= <TotProblem />
+ console.log("hey", {totCount});
   const classes = headerStyles();
 
   return (
     <AppBar position="sticky" className={classes.root1}>
 
-      <Toolbar className={classes.customizeToolbar}>
-        <img width="60px" height="70px"  style={{borderRadius:"30px", marginTop:"5px", marginBottom: "5px"}} src={goku} alt="Prakhar" />
+      <Toolbar  style={{backgroundColor:" #404040", height:"10px"}}className={classes.customizeToolbar}>
+        <img width="60px" height="50px"  className={classes.imgg} src={goku} alt="Prakhar" />
 
         <div className={classes.divMargin}>
           <div><HomeIcon/></div>
@@ -31,7 +35,7 @@ const Header = () => {
           <NavLink
             exact
             to="/Home"
-            activeStyle={{
+              activeStyle={{
               fontWeight: "bold",
               color: "#ffb366",
             }}
@@ -53,6 +57,9 @@ const Header = () => {
           <a href="https://codeforces.com/"><Typography style={{color:"white"}}>codeForces</Typography></a>
         </div>
         <>
+        <div style={{marginLeft:"auto"}}>
+          Total Problems<Typography style={{fontFamily: "serif", fontSize:"20px", color:"Highlight", marginLeft: "40px"}}>{totCount}</Typography> 
+          </div>
         <img 
         src={Prakhar}
         alt="p"

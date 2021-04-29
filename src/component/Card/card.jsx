@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import { Link } from "react-router-dom";
 import cardStyle from "./style";
 
-const Cards = ({ title, subheader, image, type, link }) => {
+const Cards = ({ title, subheader, image, type, link ,contain}) => {
   const classes = cardStyle();
   return (
     <div>
@@ -26,7 +26,7 @@ const Cards = ({ title, subheader, image, type, link }) => {
 
         <CardContent>
           <Typography className={classes.Typo} variant="body2" color="textSecondary" component="p">
-            Contains Atleast  50-60 ques for Problem {type} of codeForces..
+            Contains Atleast  50-60 ques for Problem {type} of {contain}..
       </Typography>
         </CardContent>
 
