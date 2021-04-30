@@ -4,7 +4,7 @@ import Header from "../../../component/Header/index";
 
 const DP = () => {
 
-  let problemList = [
+  let problemList = ["https://codeforces.com/contest/1519/problem/B",
   ];
 
   let Type = "Dynamic Programming";

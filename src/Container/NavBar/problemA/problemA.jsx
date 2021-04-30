@@ -6,7 +6,9 @@ import {SetTheme} from "../../../redux/reducer/theme";
 
 const ProblemA = () => {
 
-  let problemList = ["https://codeforces.com/contest/1445/problem/A",
+  let problemList = [
+    "https://codeforces.com/contest/1519/problem/A",
+    "https://codeforces.com/contest/1445/problem/A",
     "https://codeforces.com/contest/1437/problem/A",
     "https://codeforces.com/contest/1436/problem/A",
     "https://codeforces.com/contest/1433/problem/A",
