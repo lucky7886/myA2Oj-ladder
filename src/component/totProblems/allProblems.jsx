@@ -2,6 +2,8 @@ import React from 'react';
 
 const AllProblems= ()=> {
   const problems=[
+    "https://leetcode.com/problems/accounts-merge/",
+    "https://leetcode.com/problems/evaluate-division/",
     "https://codeforces.com/contest/1519/problem/A",
     "https://codeforces.com/contest/1519/problem/B",
     "https://codeforces.com/contest/1445/problem/A",

@@ -4,7 +4,10 @@ import Header from "../../../component/Header/index";
 
 const DSU = () => {
 
-  let problemList = ["https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/",
+  let problemList = [
+    "https://leetcode.com/problems/evaluate-division/",
+    "https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/",
+    "https://leetcode.com/problems/accounts-merge/",
 
     "https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/",
     "https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/",
