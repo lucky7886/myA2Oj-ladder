@@ -13,6 +13,7 @@ function App() {
   return (
     <div className={classes.bgColor}>
       <Routes />
+      
       <div style={{  backgroundColor:"black", top :"0", left:"0",  height: "100%", width:"100%", zIndex: -1, position:"fixed"}}>
       <ParticlesBg type="circle" bg={true} />
       <ParticleContainer />

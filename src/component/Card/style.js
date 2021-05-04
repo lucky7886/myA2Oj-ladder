@@ -28,7 +28,8 @@ const useStyles = makeStyles((theme) => ({
 
   },
   Placebet: {
-    marginTop: "10px", marginBottom: "20px", width: "250px", height: "25px", marginLeft: "35px",
+    marginTop: "10px", marginBottom: "20px", width: "250px", height: "25px",marginLeft:"2vw", marginRight:"3vw",
+
   },
 }));
 

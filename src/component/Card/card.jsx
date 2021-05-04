@@ -31,6 +31,7 @@ const Cards = ({ title, subheader, image, type, link ,contain}) => {
         </CardContent>
 
         <CardActions>
+        <Link exact to={link}>
           <Button
             size="lg"
             to="/album-carousel-page"
@@ -38,11 +39,12 @@ const Cards = ({ title, subheader, image, type, link ,contain}) => {
             variant="contained"
             color="secondary"
           >
-            <Link exact to={link}>
-              <Typography style={{color: "white"}}> 
+            
+              <Typography style={{color: "white", marginLeft:"2vw", marginRight:"3vw"}}> 
                 Click</Typography>
-            </Link>
+           
           </Button>
+          </Link>
         </CardActions>
       </Card>
     </div>

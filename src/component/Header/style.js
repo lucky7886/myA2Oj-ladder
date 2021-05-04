@@ -2,12 +2,23 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const HeaderStyles = makeStyles((theme) => ({
   root1: {
-    flexGrow: 1,
-    boxShadow: "none",
+    // flexGrow: 1,
+    // boxShadow: "none",
     backgroundColor: "#141452",
+    paddingRight: "3px",
+    paddingLeft: "3pxpx",
+    "@media (max-width: 900px)": {
+      paddingLeft: "3px",
+      backgroundColor: "#141452",
+    
+    },
+  
+
   },
   toolbar: {
     paddingRight: 0,
+    display: "flex",
+    justifyContent: "flex-start",
   },
   home: {
     position: "relative",
@@ -77,7 +88,11 @@ const HeaderStyles = makeStyles((theme) => ({
     fontFamily: "Sans-serif",
   },
   imgg :{
-    borderRadius:"30px", marginTop:"5px", marginBottom: "5px",
+    display: "flex",
+    justifyContent: "flexend",
+    borderRadius:"30px",
+
+     // marginTop:"5px", marginBottom: "5px", marginLeft:"0px", marginRight:"0px",
   },
   button: {
     color: "#1D9AF2",
@@ -93,6 +108,31 @@ const HeaderStyles = makeStyles((theme) => ({
   },
   "&:hover": {
     transform: "rotateZ(-30 deg)",
+  },
+  // header: {
+    
+  // },
+  logo: {
+    fontFamily: "Work Sans, sans-serif",
+    fontWeight: 600,
+    color: "#FFFEFE",
+    textAlign: "left",
+  },
+  menuButton: {
+    fontFamily: "Open Sans, sans-serif",
+    fontWeight: 700,
+    size: "18px",
+    marginLeft: "38px",
+  },
+  drawerContainer: {
+  paddingTop:"1vh",
+    width:"30vw",
+    backgroundColor: "#141452",
+    height:"100%",
+    // "@media (max-width: 900px)":{
+    //    backgroundColor:"grey",
+    //    height:"100%",
+    // },
   },
 }));
 export default HeaderStyles;
