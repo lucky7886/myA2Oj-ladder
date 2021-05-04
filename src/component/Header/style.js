@@ -2,8 +2,6 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const HeaderStyles = makeStyles((theme) => ({
   root1: {
-    // flexGrow: 1,
-    // boxShadow: "none",
     backgroundColor: "#141452",
     paddingRight: "3px",
     paddingLeft: "3pxpx",
@@ -91,8 +89,6 @@ const HeaderStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "flexend",
     borderRadius:"30px",
-
-     // marginTop:"5px", marginBottom: "5px", marginLeft:"0px", marginRight:"0px",
   },
   button: {
     color: "#1D9AF2",
