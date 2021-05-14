@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/myA2Oj-ladder/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/myA2Oj-ladder/static/js/main.9dfaef9c.chunk.js",
-    "main.js.map": "/myA2Oj-ladder/static/js/main.9dfaef9c.chunk.js.map",
+    "main.js": "/myA2Oj-ladder/static/js/main.a4a0d93d.chunk.js",
+    "main.js.map": "/myA2Oj-ladder/static/js/main.a4a0d93d.chunk.js.map",
     "runtime-main.js": "/myA2Oj-ladder/static/js/runtime-main.58e6e4dc.js",
     "runtime-main.js.map": "/myA2Oj-ladder/static/js/runtime-main.58e6e4dc.js.map",
-    "static/js/2.cf91cd47.chunk.js": "/myA2Oj-ladder/static/js/2.cf91cd47.chunk.js",
-    "static/js/2.cf91cd47.chunk.js.map": "/myA2Oj-ladder/static/js/2.cf91cd47.chunk.js.map",
+    "static/js/2.6d0a4c07.chunk.js": "/myA2Oj-ladder/static/js/2.6d0a4c07.chunk.js",
+    "static/js/2.6d0a4c07.chunk.js.map": "/myA2Oj-ladder/static/js/2.6d0a4c07.chunk.js.map",
     "static/js/3.49b1aa4a.chunk.js": "/myA2Oj-ladder/static/js/3.49b1aa4a.chunk.js",
     "static/js/3.49b1aa4a.chunk.js.map": "/myA2Oj-ladder/static/js/3.49b1aa4a.chunk.js.map",
     "index.html": "/myA2Oj-ladder/index.html",
     "static/css/main.9d5b29c0.chunk.css.map": "/myA2Oj-ladder/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.cf91cd47.chunk.js.LICENSE.txt": "/myA2Oj-ladder/static/js/2.cf91cd47.chunk.js.LICENSE.txt",
+    "static/js/2.6d0a4c07.chunk.js.LICENSE.txt": "/myA2Oj-ladder/static/js/2.6d0a4c07.chunk.js.LICENSE.txt",
     "static/media/BFS.88f18bfc.png": "/myA2Oj-ladder/static/media/BFS.88f18bfc.png",
     "static/media/DP.b2f9d3dc.png": "/myA2Oj-ladder/static/media/DP.b2f9d3dc.png",
     "static/media/MST.cf7d821b.jpg": "/myA2Oj-ladder/static/media/MST.cf7d821b.jpg",
+    "static/media/atcoder.5b0f0c7f.png": "/myA2Oj-ladder/static/media/atcoder.5b0f0c7f.png",
     "static/media/goku.f1bb2fa5.jpg": "/myA2Oj-ladder/static/media/goku.f1bb2fa5.jpg",
     "static/media/prakhar.69883096.jpg": "/myA2Oj-ladder/static/media/prakhar.69883096.jpg",
     "static/media/probleA.727c7b74.png": "/myA2Oj-ladder/static/media/probleA.727c7b74.png",
@@ -23,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.58e6e4dc.js",
-    "static/js/2.cf91cd47.chunk.js",
+    "static/js/2.6d0a4c07.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.9dfaef9c.chunk.js"
+    "static/js/main.a4a0d93d.chunk.js"
   ]
 }
