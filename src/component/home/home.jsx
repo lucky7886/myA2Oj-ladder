@@ -10,6 +10,7 @@ import BFS from "../../assest/BFS.png";
 import DSU from "../../assest/DFS.png";
 import MST from "../../assest/MST.jpg";
 import DP from "../../assest/DP.png";
+import Atcoder  from "../../assest/atcoder.png";
 import Footer from "../footer/footer";
 import Tilt from 'react-tilt';
 import Header from "../Header/index";
@@ -116,6 +117,15 @@ const Home = () => {
           >
             <Cards title={"Dynamic Programming"} subheader={"Practice Set"}
               image={DP} type={"DP"} link={"/DP"} contain={"Leetcode/ codeForces/ Codechef/ other"}
+            />
+          </Tilt>
+        </Grid>
+
+        <Grid   className={classes.MA} item xs={3} sm={3} md={3}>
+          <Tilt className="Tilt" options={{ max: 35 }}
+          >
+            <Cards title={"AtcoderBegContest C/D"} subheader={"Practice Set"}
+              image={Atcoder} type={"Atcoder"} link={"/Atcoder"} contain={"Atcoder Problems Beg Contest "}
             />
           </Tilt>
         </Grid>

@@ -11,6 +11,7 @@ import BFS from "../Container/NavBar/bfs/BFS";
 import DSU from "../Container/NavBar/dsu/DSU";
 import MST from "../Container/NavBar/mst/MST";
 import DP from "../Container/NavBar/dp/DP";
+import Atcoder from "../Container/NavBar/atcoderBegCD/atcoderBeg";
 
 const Routes = () => {
   return (
@@ -18,6 +19,7 @@ const Routes = () => {
     <>
     <Switch>
         <Route exact path="/problemA" component={ProblemsA} />
+        <Route exact path="/Atcoder" component={Atcoder} />
         <Route exact path="/problemB" component={ProblemsB} />
         <Route exact path="/problemC" component={ProblemsC} />
         <Route exact path="/problemD" component={ProblemsD} />
