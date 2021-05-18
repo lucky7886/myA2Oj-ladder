@@ -2,7 +2,7 @@ import React from 'react';
 
 const AllProblems= ()=> {
   const problems=[
-   
+    "https://codeforces.com/contest/1525/problem/D",
 "https://atcoder.jp/contests/abc065/tasks/arc076_a",
 
 "https://atcoder.jp/contests/abc065/tasks/arc076_b",

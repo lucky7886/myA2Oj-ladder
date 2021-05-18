@@ -5,6 +5,8 @@ import Header from "../../../component/Header/index";
 const DP = () => {
 
   let problemList = ["https://codeforces.com/contest/1519/problem/B",
+  "https://codeforces.com/contest/1525/problem/D",
+  
   ];
 
   let Type = "Dynamic Programming";
