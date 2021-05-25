@@ -10,12 +10,14 @@ import BFS from "../../assest/BFS.png";
 import DSU from "../../assest/DFS.png";
 import MST from "../../assest/MST.jpg";
 import DP from "../../assest/DP.png";
+import Hot from "../../assest/Hot.png";
 import Atcoder  from "../../assest/atcoder.png";
 import Footer from "../footer/footer";
 import Tilt from 'react-tilt';
 import Header from "../Header/index";
 import { Typography } from '@material-ui/core';
 import Particles from 'react-particles-js';
+
 
 
 const Home = () => {
@@ -108,6 +110,15 @@ const Home = () => {
           >
             <Cards title={"MST"} subheader={"Practice Set"}
               image={MST} type={"GRAPH"} link={"/MST"} contain={"Leetcode/ codeForces/ Codechef/ other"}
+            />
+          </Tilt>
+        </Grid>
+
+        <Grid   className={classes.MA} item xs={3} sm={3} md={3}>
+          <Tilt className="Tilt" options={{ max: 35 }}
+          >
+            <Cards title={"HotQues"} subheader={"Practice Set"}
+              image={Hot} type={"HOT"} link={"/HotQues"} contain={"Leetcode/ codeForces/ Codechef/ other"}
             />
           </Tilt>
         </Grid>
