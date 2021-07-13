@@ -10,12 +10,15 @@ import BFS from "../../assest/BFS.png";
 import DSU from "../../assest/DFS.png";
 import MST from "../../assest/MST.jpg";
 import DP from "../../assest/DP.png";
+import LunchTime from "../../assest/lunchTime.png";
+import Hot from "../../assest/Hot.png";
 import Atcoder  from "../../assest/atcoder.png";
 import Footer from "../footer/footer";
 import Tilt from 'react-tilt';
 import Header from "../Header/index";
 import { Typography } from '@material-ui/core';
 import Particles from 'react-particles-js';
+
 
 
 const Home = () => {
@@ -39,7 +42,6 @@ const Home = () => {
     
   }
   setInterval(Time,1000); 
-  console.log("");
   return (
     <>
    
@@ -68,7 +70,7 @@ const Home = () => {
           </Tilt>
         </Grid>
 
-        <Grid item xs={3} sm={3} md={3}>
+         <Grid item xs={3} sm={3} md={3}>
           <Tilt className="Tilt" options={{ max: 35 }}
           >
             <Cards title={"Problems C"} subheader={"Rated 1100-1400"}
@@ -115,11 +117,30 @@ const Home = () => {
         <Grid   className={classes.MA} item xs={3} sm={3} md={3}>
           <Tilt className="Tilt" options={{ max: 35 }}
           >
+            <Cards title={"HotQues"} subheader={"Practice Set"}
+              image={Hot} type={"HOT"} link={"/HotQues"} contain={"Leetcode/ codeForces/ Codechef/ other"}
+            />
+          </Tilt>
+        </Grid>
+
+        <Grid   className={classes.MA} item xs={3} sm={3} md={3}>
+          <Tilt className="Tilt" options={{ max: 35 }}
+          >
             <Cards title={"Dynamic Programming"} subheader={"Practice Set"}
               image={DP} type={"DP"} link={"/DP"} contain={"Leetcode/ codeForces/ Codechef/ other"}
             />
           </Tilt>
         </Grid>
+
+        <Grid   className={classes.MA} item xs={3} sm={3} md={3}>
+          <Tilt className="Tilt" options={{ max: 35 }}
+          >
+            <Cards title={"Codechef lunchTime"} subheader={"Practice Set"}
+              image={LunchTime} type={"codechef"} link={"/codeChef"} contain={"LunchTime ques"}
+            />
+          </Tilt>
+        </Grid>
+
 
         <Grid   className={classes.MA} item xs={3} sm={3} md={3}>
           <Tilt className="Tilt" options={{ max: 35 }}

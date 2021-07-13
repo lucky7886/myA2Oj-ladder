@@ -2,14 +2,14 @@ import React from 'react';
 import Table from "../../../component/Table/table";
 import Header from "../../../component/Header/index";
 
-const DP = () => {
+const HotQues = () => {
 
-  let problemList = ["https://codeforces.com/contest/1519/problem/B",
-  "https://codeforces.com/contest/1525/problem/D",
-  
+  let problemList = [
+ "https://www.codechef.com/COOK129B/problems/CSUBS",
+ "https://www.codechef.com/COOK129B/problems/TLAPM",
   ];
 
-  let Type = "Dynamic Programming";
+  let Type = "HotQues/brainStorm";
   return (
     <div>
       <Header />
@@ -19,4 +19,4 @@ const DP = () => {
   );
 }
 
-export default DP;
+export default HotQues;

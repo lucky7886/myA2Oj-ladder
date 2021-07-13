@@ -23,7 +23,7 @@ function ParticleContainer() {
                     }
                   },
                   "color": {
-                    "value": "yellow"
+                    "value": "red"
                   },
       
                 }
