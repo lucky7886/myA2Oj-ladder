@@ -13,7 +13,10 @@ import MST from "../Container/NavBar/mst/MST";
 import DP from "../Container/NavBar/dp/DP";
 import Atcoder from "../Container/NavBar/atcoderBegCD/atcoderBeg";
 import HotQues from "../Container/NavBar/hotQues/hotQues"
+<<<<<<< HEAD
 import LunchTime from "../Container/NavBar/lunchTime/LunchTime";
+=======
+>>>>>>> e4a308110763c1ec6cc7eb7dd9e7a8ba90795424
 
 const Routes = () => {
   return (
@@ -29,7 +32,10 @@ const Routes = () => {
         <Route exact path="/DSU/DFS" component={DSU} />
         <Route exact path="/MST" component={MST} />
         <Route exact path="/DP" component={DP} />
+<<<<<<< HEAD
         <Route exact path="/codeChef" component={LunchTime} />
+=======
+>>>>>>> e4a308110763c1ec6cc7eb7dd9e7a8ba90795424
         <Route exact path="/HotQues" component={HotQues} />
         <Route exact path="/" component={Home} />
         <Route exact path="/myA2Oj-ladder" component={Home} />
