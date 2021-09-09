@@ -10,10 +10,7 @@ import BFS from "../../assest/BFS.png";
 import DSU from "../../assest/DFS.png";
 import MST from "../../assest/MST.jpg";
 import DP from "../../assest/DP.png";
-<<<<<<< HEAD
 import LunchTime from "../../assest/lunchTime.png";
-=======
->>>>>>> e4a308110763c1ec6cc7eb7dd9e7a8ba90795424
 import Hot from "../../assest/Hot.png";
 import Atcoder  from "../../assest/atcoder.png";
 import Footer from "../footer/footer";
